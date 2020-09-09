@@ -1,7 +1,7 @@
 {
     "name": "IrohaChiyo.Variables.Editor",
     "references": [
-        "GUID:b05c5480496d9d444a2e7dc1f5801894"
+        "GUID:7e273450c97675140b7fb340dc1186a3"
     ],
     "includePlatforms": [
         "Editor"
