@@ -1,0 +1,11 @@
+{
+  "name": "com.irohachiyo.variables",
+  "version": "0.0.0",
+  "displayName": "Variables",
+  "description": "Series of Unity components whose only purpose is to hold one (or more) variable.",
+  "unity": "2018.1",
+  "author": {
+    "name": "Iroha Chiyo",
+    "url": "https://twitter.com/irohachiyo"
+  }
+}

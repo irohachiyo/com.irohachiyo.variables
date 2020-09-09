@@ -1,0 +1,17 @@
+{
+    "name": "IrohaChiyo.Variables.Editor",
+    "references": [
+        "GUID:b05c5480496d9d444a2e7dc1f5801894"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
