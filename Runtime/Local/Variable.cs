@@ -2,7 +2,7 @@
 
 public class Variable<T> : VariableMonoBehaviour
 {
-    [SerializeField] public T value;
+    [SerializeField] private T value;
 
     public T Value
     {
