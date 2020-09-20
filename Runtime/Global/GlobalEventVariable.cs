@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
 [CreateAssetMenu(menuName = "Variables/Event Variable")]
-public class GlobalEventVariable : ScriptableObject
+public class GlobalEventVariable : GlobalVariableScriptableObject
 {
     public delegate void EventHandler(GameObject arg);
 
@@ -11,6 +11,11 @@ public class GlobalEventVariable : ScriptableObject
     {
         add => this.value += value;
         remove => this.value -= value;
+    }
+
+    public void InvokeEvent(GameObject arg = null)
+    {
+        value?.Invoke(arg);
     }
 
 #if UNITY_EDITOR
