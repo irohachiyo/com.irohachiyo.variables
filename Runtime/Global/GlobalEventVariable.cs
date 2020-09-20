@@ -17,19 +17,4 @@ public class GlobalEventVariable : GlobalVariableScriptableObject
     {
         value?.Invoke(arg);
     }
-
-#if UNITY_EDITOR
-    [Header("Debug")]
-    public bool triggerEventOnChange;
-    public GameObject debugArg;
-
-    private void Update()
-    {
-        if (triggerEventOnChange)
-        {
-            triggerEventOnChange = false;
-            value?.Invoke(debugArg);
-        }
-    }
-#endif
 }
